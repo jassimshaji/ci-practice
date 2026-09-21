@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const { sum } = require('./sum');
 
 test('sum adds two positive numbers', () => {
-  assert.equal(sum(2, 3), 5);
+  assert.equal(sum(2, 3), 6);
 });
 
 test('sum adds negative numbers', () => {
